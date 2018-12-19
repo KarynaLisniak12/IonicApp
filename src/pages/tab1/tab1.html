@@ -1,0 +1,119 @@
+<ion-header>
+  <ion-navbar>
+    <ion-buttons start>
+        <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+  </ion-buttons>
+    <ion-title>Tab 1</ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content padding>
+  <ion-card>
+
+    <ion-item>
+      <h2>Marty McFly</h2>
+      <p>November 5, 1955</p>
+    </ion-item>
+  
+    <img src="http://apecaccelerator.org/wp-content/uploads/2018/01/2.jpg">
+  
+    <ion-card-content>
+      <ion-row>
+        <ion-col>
+          <b>Birth Date:</b>
+        </ion-col>
+        <ion-col>
+          <span>10.02.2012</span>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>
+          <b>Weight:</b>
+        </ion-col>
+        <ion-col>
+          <span>12 kg</span>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>
+          <b>Height:</b>
+        </ion-col>
+        <ion-col>
+          <span>70.2 sm</span>
+        </ion-col>
+      </ion-row>
+    </ion-card-content>
+  
+    <ion-row>
+      <ion-col>
+        <button ion-button icon-start clear small>
+          <ion-icon name="information-circle"></ion-icon>
+          <div>UPDATE</div>
+        </button>
+      </ion-col>
+      <ion-col>
+        <button ion-button icon-start clear small>
+          <ion-icon name="trash"></ion-icon>
+          <div>DELETE</div>
+        </button>
+      </ion-col>
+    </ion-row>
+  
+  </ion-card>
+
+  <ion-card>
+
+    <ion-item>
+      <h2>Marty McFly</h2>
+      <p>November 5, 1955</p>
+    </ion-item>
+  
+    <img src="http://apecaccelerator.org/wp-content/uploads/2018/01/2.jpg">
+  
+    <ion-card-content>
+      <ion-row>
+        <ion-col>
+          <b>Birth Date:</b>
+        </ion-col>
+        <ion-col>
+          <span>10.02.2012</span>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>
+          <b>Weight:</b>
+        </ion-col>
+        <ion-col>
+          <span>12 kg</span>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>
+          <b>Height:</b>
+        </ion-col>
+        <ion-col>
+          <span>70.2 sm</span>
+        </ion-col>
+      </ion-row>
+    </ion-card-content>
+  
+    <ion-row>
+      <ion-col>
+        <button ion-button icon-start clear small (click)="update()">
+          <ion-icon name="information-circle"></ion-icon>
+          <div>UPDATE</div>
+        </button>
+      </ion-col>
+      <ion-col>
+        <button ion-button icon-start clear small (click)="delete()">
+          <ion-icon name="trash"></ion-icon>
+          <div>DELETE</div>
+        </button>
+      </ion-col>
+    </ion-row>
+  
+  </ion-card>
+</ion-content>
